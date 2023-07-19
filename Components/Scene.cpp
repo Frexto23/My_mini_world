@@ -4,8 +4,6 @@
 
 #include "../General_includer.cpp"
 
-using namespace std;
-
 class Scene {
 private:
     int Time = 0;

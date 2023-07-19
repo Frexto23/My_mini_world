@@ -4,16 +4,15 @@
 
 #include "Includer.cpp"
 
-using namespace std;
-using namespace sf;
-
 int main() {
 
-    Scene Game_Scene;
-    Camera Game_Camera;
+    tune(); // функция конфига
+
+    Scene Game_Scene;    // Сцена
+    Camera Game_Camera;  // Камера
 
     // Создаём окошко
-    RenderWindow window(sf::VideoMode(Game_Camera.Game_window_width_px, Game_Camera.Game_window_height_px), "My mini World");
+    RenderWindow window(sf::VideoMode(Game_window_width_px, Game_window_height_px), "My mini World");
 
     // Главный игровой цикл
     while(window.isOpen()) {
@@ -27,6 +26,7 @@ int main() {
 
         // Очистка
         window.clear();
+        Draw_Scene(window);
         // Отрисовка
         window.display();
 

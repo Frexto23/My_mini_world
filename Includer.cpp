@@ -3,10 +3,15 @@
 //
 
 // Основные библиотеки
-#include "General_includer.cpp"
+#include "Config.cpp"
 
 // Основные компоненты
 #include "Components/Scene.cpp"
 #include "Components/Camera.cpp"
 
 // Основные скрипты
+#include "Scripts/Draw.cpp"
+
+// бесполезная документация
+#include "SFML_documentation.cpp"
+
