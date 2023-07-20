@@ -1,11 +1,17 @@
 # ninja log v5
-1	641	7115564482764387	build.ninja	514fe176ffcb53f6
-5	4296	7115562713828195	CMakeFiles/My_mini_world.dir/main.cpp.obj	92f60bc1738cbba9
-4371	5092	7115562721725628	My_mini_world.exe	31237ec68f8ee74f
-18	221	7115562673058979	CMakeFiles/My_mini_world.dir/Components/Camera.cpp.obj	4d5e0fb89eb56d19
-26	4279	7115562713647997	CMakeFiles/My_mini_world.dir/Components/World_Cell.cpp.obj	e1760c586a8605d7
-41	4228	7115562713117517	CMakeFiles/My_mini_world.dir/Components/Scene.cpp.obj	3dad19ed32cd2a80
-33	4371	7115562714578841	CMakeFiles/My_mini_world.dir/Configs/Texture_Config.cpp.obj	c22daceb82ba6714
-7	2977	7114959118653751	CMakeFiles/My_mini_world.dir/Configs/text.cpp.obj	5271cfb3f90e7135
-57	4283	7115562713698038	CMakeFiles/My_mini_world.dir/Configs/Config.cpp.obj	94fa627e47a6a2fe
-49	220	7115562673038965	CMakeFiles/My_mini_world.dir/Components/Player.cpp.obj	c8008569a0bd45a7
+1	641	7115720571321652	build.ninja	514fe176ffcb53f6
+4	2978	7115719848892377	CMakeFiles/My_mini_world.dir/main.cpp.obj	92f60bc1738cbba9
+27	3360	7115717144319336	CMakeFiles/My_mini_world.dir/Configs/Config.cpp.obj	94fa627e47a6a2fe
+2978	3666	7115719855729023	My_mini_world.exe	f1168f2597fc1990
+15	172	7115623963438263	CMakeFiles/My_mini_world.dir/Components/Camera.cpp.obj	4d5e0fb89eb56d19
+28	3354	7115623995254688	CMakeFiles/My_mini_world.dir/Components/World_Cell.cpp.obj	e1760c586a8605d7
+15	3263	7115717143308427	CMakeFiles/My_mini_world.dir/Components/Scene.cpp.obj	3dad19ed32cd2a80
+16	3273	7115694258572219	CMakeFiles/My_mini_world.dir/Configs/Texture_Config.cpp.obj	c22daceb82ba6714
+21	3317	7115717143898957	CMakeFiles/My_mini_world.dir/Components/Player.cpp.obj	c8008569a0bd45a7
+15	2896	7115723697459774	CMakeFiles/My_mini_world.dir/Scripts/Event_logic_controller.cpp.obj	ef4c1416b304a2a1
+5	2917	7115723697669971	CMakeFiles/My_mini_world.dir/main.cpp.obj	92f60bc1738cbba9
+2918	3609	7115723704520997	My_mini_world.exe	52d7576ed5556c5d
+5	2849	7115724336068214	CMakeFiles/My_mini_world.dir/Scripts/Event_logic_controller.cpp.obj	ef4c1416b304a2a1
+2850	3547	7115724342970771	My_mini_world.exe	52d7576ed5556c5d
+4	2927	7115728619541262	CMakeFiles/My_mini_world.dir/main.cpp.obj	92f60bc1738cbba9
+2928	3605	7115728626252563	My_mini_world.exe	52d7576ed5556c5d

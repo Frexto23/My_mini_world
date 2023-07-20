@@ -24,10 +24,17 @@ void Draw_Scene(RenderWindow& window) {
                 cube.setTexture(Game_Scene.World[Game_Camera.X + x][Game_Camera.Y + y].Cell_Building_Texture);
                 window.draw(cube);
             }
-
             // рисуем игрока
-
-
+            RectangleShape PlayerShape;
+            PlayerShape.setSize(Vector2f((float)player.width, (float)player.height));
+            PlayerShape.setTextureRect(IntRect(0, 0, player.texture_width, player.texture_height));
+            PlayerShape.setTexture(player.player_texture);
+            int player_x = player.X - Game_Camera.X;
+            int player_y = player.Y - Game_Camera.Y;
+            player_x = Block_size * player_x + Block_border_size * (player_x + 1) + (Block_size - player.width) / 2;
+            player_y = Block_size * (Screen_height - player_y - 1) + Block_border_size * (Screen_height - player_y) + (Block_size - player.height) / 2;
+            PlayerShape.setPosition((float)player_x, (float)player_y);
+            window.draw(PlayerShape);
         }
     }
 

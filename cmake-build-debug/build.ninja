@@ -105,6 +105,14 @@ build CMakeFiles/My_mini_world.dir/Components/Player.cpp.obj: CXX_COMPILER__My_m
   OBJECT_DIR = CMakeFiles\My_mini_world.dir
   OBJECT_FILE_DIR = CMakeFiles\My_mini_world.dir\Components
 
+build CMakeFiles/My_mini_world.dir/Scripts/Event_logic_controller.cpp.obj: CXX_COMPILER__My_mini_world_Debug D$:/Coding/My_mini_world/Scripts/Event_logic_controller.cpp || cmake_object_order_depends_target_My_mini_world
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\My_mini_world.dir\Scripts\Event_logic_controller.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -isystem D:/saves/libs/SFML/include
+  OBJECT_DIR = CMakeFiles\My_mini_world.dir
+  OBJECT_FILE_DIR = CMakeFiles\My_mini_world.dir\Scripts
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target My_mini_world
@@ -113,7 +121,15 @@ build CMakeFiles/My_mini_world.dir/Components/Player.cpp.obj: CXX_COMPILER__My_m
 #############################################
 # Link the executable My_mini_world.exe
 
-
+build My_mini_world.exe: CXX_EXECUTABLE_LINKER__My_mini_world_Debug CMakeFiles/My_mini_world.dir/main.cpp.obj CMakeFiles/My_mini_world.dir/Components/Camera.cpp.obj CMakeFiles/My_mini_world.dir/Components/Scene.cpp.obj CMakeFiles/My_mini_world.dir/Components/World_Cell.cpp.obj CMakeFiles/My_mini_world.dir/Configs/Texture_Config.cpp.obj CMakeFiles/My_mini_world.dir/Configs/Config.cpp.obj CMakeFiles/My_mini_world.dir/Components/Player.cpp.obj CMakeFiles/My_mini_world.dir/Scripts/Event_logic_controller.cpp.obj | D$:/saves/libs/SFML/lib/libsfml-system-s-d.a D$:/saves/libs/SFML/lib/libsfml-window-s-d.a D$:/saves/libs/SFML/lib/libsfml-graphics-s-d.a D$:/saves/libs/SFML/lib/libsfml-audio-s-d.a D$:/saves/libs/SFML/lib/libsfml-window-s-d.a D$:/saves/libs/SFML/lib/libfreetype.a D$:/saves/libs/SFML/lib/libsfml-system-s-d.a D$:/saves/libs/SFML/lib/libopenal32.a D$:/saves/libs/SFML/lib/libvorbisfile.a D$:/saves/libs/SFML/lib/libvorbisenc.a D$:/saves/libs/SFML/lib/libvorbis.a D$:/saves/libs/SFML/lib/libogg.a D$:/saves/libs/SFML/lib/libFLAC.a
+  FLAGS = -g
+  LINK_LIBRARIES = D:/saves/libs/SFML/lib/libsfml-system-s-d.a  D:/saves/libs/SFML/lib/libsfml-window-s-d.a  D:/saves/libs/SFML/lib/libsfml-graphics-s-d.a  D:/saves/libs/SFML/lib/libsfml-audio-s-d.a  D:/saves/libs/SFML/lib/libsfml-window-s-d.a  -lOpenGL32  -lgdi32  D:/saves/libs/SFML/lib/libfreetype.a  D:/saves/libs/SFML/lib/libsfml-system-s-d.a  -lwinmm  D:/saves/libs/SFML/lib/libopenal32.a  D:/saves/libs/SFML/lib/libvorbisfile.a  D:/saves/libs/SFML/lib/libvorbisenc.a  D:/saves/libs/SFML/lib/libvorbis.a  D:/saves/libs/SFML/lib/libogg.a  D:/saves/libs/SFML/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\My_mini_world.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = My_mini_world.exe
+  TARGET_IMPLIB = libMy_mini_world.dll.a
+  TARGET_PDB = My_mini_world.exe.dbg
 
 
 #############################################

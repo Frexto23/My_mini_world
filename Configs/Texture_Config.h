@@ -7,10 +7,12 @@
 
 #include "../General_includer.cpp"
 
-class texturator {
+class TextureSet {
 public:
-    Texture Home, classic_grass_texture;
-    texturator();
+    Texture home_texture;
+    Texture classic_grass_texture;
+    Texture player_texture;
+    TextureSet();
 };
 
 #endif //MY_MINI_WORLD_TEXTURE_CONFIG_H

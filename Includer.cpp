@@ -19,6 +19,7 @@
 
 // Основные скрипты
 #include "Scripts/Draw.cpp"
+#include "Scripts/Event_logic_controller.h"
 
 // бесполезная документация
 #include "SFML_documentation.cpp"

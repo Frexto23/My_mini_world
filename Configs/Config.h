@@ -11,7 +11,7 @@
 #include "Texture_Config.h"
 #include "../Components/Player.h"
 
-extern texturator Game_Texture;
+extern TextureSet Game_Texture;
 extern Camera Game_Camera;
 extern Scene Game_Scene;
 extern Player player;

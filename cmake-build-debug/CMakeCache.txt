@@ -240,10 +240,10 @@ CMAKE_STRIP:FILEPATH=D:/Programs/CLion 2022.3.1/bin/mingw/bin/strip.exe
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a library.
-FLAC_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libFLAC.a
+FLAC_LIB:FILEPATH=D:/saves/libs/SFML/lib/libFLAC.a
 
 //Path to a library.
-FreeType_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libfreetype.a
+FreeType_LIB:FILEPATH=D:/saves/libs/SFML/lib/libfreetype.a
 
 //Value Computed by CMake
 My_mini_world_BINARY_DIR:STATIC=D:/Coding/My_mini_world/cmake-build-debug
@@ -255,28 +255,22 @@ My_mini_world_IS_TOP_LEVEL:STATIC=ON
 My_mini_world_SOURCE_DIR:STATIC=D:/Coding/My_mini_world
 
 //Path to a library.
-Ogg_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libogg.a
+Ogg_LIB:FILEPATH=D:/saves/libs/SFML/lib/libogg.a
 
 //Path to a library.
-OpenAL_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libopenal32.a
-
-//The directory containing a CMake configuration file for SFML-2.6.0.
-SFML-2.6.0_DIR:PATH=SFML-2.6.0_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=SFML_DIR-NOTFOUND
+OpenAL_LIB:FILEPATH=D:/saves/libs/SFML/lib/libopenal32.a
 
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
 
 //Path to a library.
-VorbisEnc_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libvorbisenc.a
+VorbisEnc_LIB:FILEPATH=D:/saves/libs/SFML/lib/libvorbisenc.a
 
 //Path to a library.
-VorbisFile_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libvorbisfile.a
+VorbisFile_LIB:FILEPATH=D:/saves/libs/SFML/lib/libvorbisfile.a
 
 //Path to a library.
-Vorbis_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libvorbis.a
+Vorbis_LIB:FILEPATH=D:/saves/libs/SFML/lib/libvorbis.a
 
 
 ########################

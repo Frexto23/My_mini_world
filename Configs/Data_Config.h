@@ -10,7 +10,7 @@
 const int Screen_width = 10;     // ширина в блоках
 const int Screen_height = 10;    // высота экрана в блоках
 
-const int Block_size = 70;       // ширина и высота клетки
+const int Block_size = 86;       // ширина и высота клетки
 const int Block_border_size = 2; // ширина линии разделяющей клетки
 
 const int Game_window_width_px = Screen_width * Block_size + (Screen_width + 1) * Block_border_size;         // ширина окна в px
