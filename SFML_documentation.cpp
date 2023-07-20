@@ -2,7 +2,7 @@
 // Created by fmaks on 18.07.2023.
 //
 
-#include "General_includer.cpp"
+#pragma once
 
 void See_this_SFML_power () {
     // прямоугольник 150 x 5 с поворотом на 45

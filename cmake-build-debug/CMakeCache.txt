@@ -264,7 +264,7 @@ OpenAL_LIB:FILEPATH=D:/Coding/My_mini_world/libs/SFML/lib/libopenal32.a
 SFML-2.6.0_DIR:PATH=SFML-2.6.0_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=D:/Coding/My_mini_world/libs/SFML/lib/cmake/SFML
+SFML_DIR:PATH=SFML_DIR-NOTFOUND
 
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND

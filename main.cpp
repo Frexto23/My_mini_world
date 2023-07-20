@@ -6,10 +6,10 @@
 
 int main() {
 
-    tune(); // функция конфига
+    cout << Game_Scene.Time << endl;
 
-    Scene Game_Scene;    // Сцена
-    Camera Game_Camera;  // Камера
+    Game_Scene.World[0][0].Is_building = true;
+    Game_Scene.World[0][0].Cell_Building_Texture = &Game_Texture.Home;
 
     // Создаём окошко
     RenderWindow window(sf::VideoMode(Game_window_width_px, Game_window_height_px), "My mini World");
@@ -25,7 +25,7 @@ int main() {
         }
 
         // Очистка
-        window.clear();
+        window.clear();  // цвет рамок клеток
         Draw_Scene(window);
         // Отрисовка
         window.display();

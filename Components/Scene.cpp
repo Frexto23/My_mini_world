@@ -1,15 +1,15 @@
 //
-// Created by fmaks on 18.07.2023.
+// Created by fmaks on 19.07.2023.
 //
 
-#include "../General_includer.cpp"
+#include "Scene.h"
+#include "../Configs/Config.h"
 
-class Scene {
-private:
-    int Time = 0;
-    int World[100][100]{};
-
-public:
-    Scene() = default;
-};
+Scene::Scene() {
+    for(int x=0;x<World_width_blocks;x++) {
+        for(int y=0;y<World_height_blocks;y++) {
+            World[x][y] = World_Cell(&Game_Texture.classic_grass_texture);
+        }
+    }
+}
 
