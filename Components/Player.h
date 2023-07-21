@@ -11,11 +11,13 @@ class Player {
 public:
     float X, Y;
 
+    float speed = 0.050;
+
     int rotate = 0;
     int animation_tact = 0;
 
     float CurrentFrame = 0;
-    float speed = 0.005;
+    float animation_speed = 0.1;
     float Frame_for_next_anim = 3.0;
 
     int width, height;

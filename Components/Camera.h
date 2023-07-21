@@ -7,8 +7,9 @@
 
 class Camera {
 public:
-    int X, Y;
+    float X, Y;
     Camera();
+    void Move();
 };
 
 #endif //MY_MINI_WORLD_CAMERA_H

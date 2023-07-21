@@ -6,7 +6,7 @@
 #include "../Configs/Config.h"
 
 Player::Player() {
-    X = 500, Y = 500;
+    X = 5, Y = 5;
 
     width = height = 64;
 
@@ -19,8 +19,8 @@ Player::Player() {
 }
 
 void Player::Animate() {
-    PlayerShape.setPosition(player.X, player.Y);
-    CurrentFrame += speed;
+    PlayerShape.setPosition(player.X * Block_size, player.Y * Block_size);
+    CurrentFrame += animation_speed;
     if (CurrentFrame >= Frame_for_next_anim)
         CurrentFrame = 0;
     else

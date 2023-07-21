@@ -12,6 +12,7 @@ public:
     Texture home_texture;
     Texture classic_grass_texture;
     Texture player_texture;
+    Texture classic_water_texture;
     TextureSet();
 };
 

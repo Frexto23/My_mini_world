@@ -15,6 +15,8 @@ public:
     bool Is_building = false; // есть ли здание
     Texture* Cell_Building_Texture;
 
+    bool free = true;
+
     explicit World_Cell(Texture* texture);
     explicit World_Cell(Texture* texture, Texture* building_texture);
     World_Cell();
