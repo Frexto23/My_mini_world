@@ -7,6 +7,6 @@
 
 #include "../General_includer.cpp"
 
-void wasd(Event* event);
+void wasd();
 
 #endif //MY_MINI_WORLD_EVENT_LOGIC_CONTROLLER_H

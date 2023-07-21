@@ -6,15 +6,24 @@
 #include "../General_includer.cpp"
 #include "../Configs/Config.h"
 
-void wasd(Event* event) {
-    if (event -> type == Event::KeyPressed) {
-        if (event->key.code == Keyboard::W)
-            player.Y++;
-        if (event->key.code == Keyboard::S)
-            player.Y--;
-        if (event->key.code == Keyboard::A)
-            player.X--;
-        if (event->key.code == Keyboard::D)
-            player.X++;
+//#|:'speed vodka 0 limit!'
+
+void wasd() {
+    if (Keyboard::isKeyPressed(Keyboard::Up)) {
+        player.Y -= 0.1;
+        player.rotate = 1;
     }
+    if (Keyboard::isKeyPressed(Keyboard::Down)) {
+        player.Y += 0.1;
+        player.rotate = 0;
+    }
+    if (Keyboard::isKeyPressed(Keyboard::Left)) {
+        player.X -= 0.1;
+        player.rotate = 2;
+    }
+    if (Keyboard::isKeyPressed(Keyboard::Right)) {
+        player.X += 0.1;
+        player.rotate = 3;
+    }
+
 }
