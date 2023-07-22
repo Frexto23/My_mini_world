@@ -20,17 +20,17 @@ void Parse_tileset(string& tileset_path, int width, int height, int tile_size, v
 }
 
 TextureSet::TextureSet() {
-    if (!classic_grass_texture.loadFromFile("D:/Coding/My_mini_world/content/graphic/grass2.png")) cout << "ERROR! LOAD GRASS!" << endl;
-    if (!home_texture.loadFromFile("D:/Coding/My_mini_world/content/graphic/home.png")) cout << "ERROR! LOAD home_texture!" << endl;
-    if (!player_texture.loadFromFile("D:/Coding/My_mini_world/content/graphic/Walk.png")) cout << "ERROR! LOAD player!" << endl;
-    if (!classic_water_texture.loadFromFile("D:/Coding/My_mini_world/content/graphic/classic_water.png")) cout << "ERROR! Load water" << endl;
+    if (!classic_grass_texture.loadFromFile("../content/graphic/grass2.png")) cout << "ERROR! LOAD GRASS!" << endl;
+    if (!home_texture.loadFromFile("../content/graphic/home.png")) cout << "ERROR! LOAD home_texture!" << endl;
+    if (!player_texture.loadFromFile("../content/graphic/Walk.png")) cout << "ERROR! LOAD player!" << endl;
+    if (!classic_water_texture.loadFromFile("../content/graphic/classic_water.png")) cout << "ERROR! Load water" << endl;
 
     id.emplace_back(classic_grass_texture);
     id.emplace_back(home_texture);
     id.emplace_back(player_texture);
     id.emplace_back(classic_water_texture);
 
-    string tileset_path = "D:/Coding/My_mini_world/content/graphic/Solaria_tileset.png";
+    string tileset_path = "../content/graphic/Solaria_tileset.png";
     Parse_tileset(tileset_path, 2408, 1290, 86, id);
 }
 
