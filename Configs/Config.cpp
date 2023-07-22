@@ -6,6 +6,9 @@
 #include "Data_Config.h"
 #include "Texture_Config.h"
 
+int last_right_click = -1;
+int Now_chosen_texture_id = 4;
+Clock GameTime = Clock();
 RenderWindow window(sf::VideoMode(Game_window_width_px, Game_window_height_px), "My mini World");
 View view = View();
 TextureSet Game_Texture = TextureSet();

@@ -17,9 +17,10 @@ public:
 
     bool free = true;
 
-    explicit World_Cell(Texture* texture);
-    explicit World_Cell(Texture* texture, Texture* building_texture);
+    int last_change = -1;
+
     World_Cell();
+    void Update_texture(Texture* new_texture, bool is_free = true);
 };
 
 #endif //MY_MINI_WORLD_WORLD_CELL_H

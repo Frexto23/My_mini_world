@@ -8,7 +8,7 @@
 Scene::Scene() {
     for(int x=0;x<World_width_blocks;x++) {
         for(int y=0;y<World_height_blocks;y++) {
-            World[x][y] = World_Cell(&Game_Texture.classic_grass_texture);
+            World[x][y].Update_texture(&Game_Texture.classic_grass_texture);
         }
     }
     system("color 0A");
@@ -24,6 +24,7 @@ void Scene::Calculate_Frame() {
 //        system("cls");
 
         cout << "FPS: " << fps << endl;
+        cout << Now_chosen_texture_id << endl;
 
         clock.restart(); // Перезапускаем часы
         fps = 0;         // Обнуляем счётчик

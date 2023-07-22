@@ -13,6 +13,11 @@ public:
     Texture classic_grass_texture;
     Texture player_texture;
     Texture classic_water_texture;
+
+    Texture Solaria_tileset;
+
+    vector<Texture> id;
+
     TextureSet();
 };
 

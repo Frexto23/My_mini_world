@@ -35,17 +35,6 @@ void Draw_Scene() {
 
             // рисуем игрока
             window.draw(player.PlayerShape);
-
-            RectangleShape point_red = RectangleShape(Vector2f(10.0f, 10.0f));
-            point_red.setFillColor(Color::Red);
-            point_red.setPosition(Vector2f((Game_Camera.X - 5.0f) * Block_size, (Game_Camera.Y - 5.0f) * Block_size));
-            window.draw(point_red);
-            point_red.setPosition(Vector2f(Game_window_width_px / 2.0f, Game_window_height_px / 2.0f));
-            window.draw(point_red);
-            point_red.setPosition(Vector2f(0.0f, 0.0f));
-            window.draw(point_red);
-            point_red.setPosition(Vector2f(86.0f, 86.0f));
-            window.draw(point_red);
         }
     }
 }

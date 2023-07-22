@@ -11,6 +11,9 @@
 #include "Texture_Config.h"
 #include "../Components/Player.h"
 
+extern int last_right_click;
+extern int Now_chosen_texture_id;
+extern Clock GameTime;
 extern RenderWindow window;
 extern View view;
 extern TextureSet Game_Texture;

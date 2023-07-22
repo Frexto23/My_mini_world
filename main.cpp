@@ -9,7 +9,6 @@ int main() {
     setup_config();
 
     while(window.isOpen()) {
-
         Game_Scene.Calculate_Frame();
         player.Animate();
         Game_Camera.Move();
