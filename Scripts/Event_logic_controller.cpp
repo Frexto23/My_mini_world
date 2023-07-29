@@ -25,7 +25,7 @@ void wasd() {
     }
 
     if (Mouse::isButtonPressed(Mouse::Left)) {
-        int x = Mouse::getPosition(window).y;
+        int x = Mouse::getPosition(window).x;
         int y = Mouse::getPosition(window).y;
         if (!(x < 0 || y < 0 || x >= Game_window_width_px || y >= Game_window_height_px)) {
             auto Real_click = get_cell_by_cord((float) Mouse::getPosition(window).x,
